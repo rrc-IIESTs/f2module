@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    color: white;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+.in{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5%;
+}
+img{
+    margin: 10px;
+    border: 0.8vw solid grey;
+    width: 12vw;
+}
+img:hover {
+    border: 1vw solid rgb(195, 247, 201);
+}
+.in:hover p{
+    visibility: visible;
+}
+.in p{
+    padding-left: 5%;
+    visibility: hidden;
+}
+.form{
+    display: none;
+}
+.data{
+    display: none;
+}
+td{
+    padding: 5px;
+}
+.dice{
+    display: none;
+}
+.coupon{
+    display: none;
+}
+.coupon h1{
+    text-align: center;
+    border: 2px solid greenyellow;
+}

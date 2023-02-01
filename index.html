@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="guide">
+        Select the first image to get form.
+    </h1>
+    <div class="images">
+        <div class="in">
+            <img src="https://images.pexels.com/photos/13299136/pexels-photo-13299136.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt="Image 1" id="img1">
+            <p id="p1">
+                Click above to get form
+            </p>
+        </div>
+        <div class="in">
+            <img src="https://images.pexels.com/photos/14809773/pexels-photo-14809773.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt="Image 2" id="img2">
+            <p id="p2">
+                Click above to get details
+            </p>
+        </div>
+        <div class="in">
+            <img src="https://images.pexels.com/photos/14809809/pexels-photo-14809809.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt="Image 3" id="img3">
+            <p id="p3">
+                Click above to get dice
+            </p>
+        </div>
+        <div class="in">
+            <img src="https://images.pexels.com/photos/14992309/pexels-photo-14992309.jpeg?auto=compress&cs=tinysrgb&w=1600" 
+            alt="Image 4" id="img4">
+            <p id="p4">
+                Click above to get coupon
+            </p>
+        </div>
+    </div>
+    <h2 class="message">
+
+    </h2>
+    <div class="form" id="form">
+            <form class="register">
+                <fieldset>
+                 <legend>Registration Form</legend>
+                  <label for="name">Name</label> <br>
+                  <input type="text" name="name" id="name" placeholder="Enter your name">
+                  <br> <br>
+                  <label for="email">Email</label><br>
+                  <input type="email" name="email" id="email" placeholder="Enter your Email">
+                  <br><br>
+                  <label for="username">Username</label> <br>
+                  <input type="text" name="username" id="username" placeholder="Enter desired username">
+                  <br><br>
+                  <input type="submit">
+                 </fieldset>
+            </form>
+    </div>
+    <div class="data" id="data">
+        <fieldset>
+            <legend>Registered User Details</legend>
+            <table>
+                <tr>
+                    <td>
+                        Name
+                    </td>
+                    <td class="name_disp">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        UserName
+                    </td>
+                    <td class="username_disp">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        
+    </div>
+    <div class="dice" id="dice">
+        <img src="" alt="" id="0">
+    </div>
+    <div class="coupon">
+        <h1 id="coupon"></h1>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
